@@ -15,6 +15,7 @@ body {
   font-family: "Nunito", sans-serif;
   color: #2f3a2e;
   font-weight: 400;
+  font-size: 20px;
 }
 
 h1,
@@ -65,4 +66,20 @@ ul {
 .search {
   height: 30px;
   width: 145px;
+  outline: none;
+  border: none;
+  background-color: #45c396;
+  border-radius: 50px;
+}
+
+.search_form {
+  display: flex;
+  border-radius: 50px;
+  background-color: #45c396;
+}
+
+.loop {
+  position: absolute;
+  z-index: 2;
+  margin: 7px 0px 0px 119px;
 }
