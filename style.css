@@ -82,4 +82,5 @@ ul {
   position: absolute;
   z-index: 2;
   margin: 7px 0px 0px 119px;
+  cursor: pointer;
 }
