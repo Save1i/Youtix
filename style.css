@@ -35,6 +35,7 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .container {
@@ -46,9 +47,22 @@ ul {
 .header__inner {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .menu {
   display: flex;
-  align-content: center;
+  align-items: center;
+  gap: 53px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.search {
+  height: 30px;
+  width: 145px;
 }
