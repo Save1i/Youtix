@@ -16,6 +16,7 @@ body {
   color: #2f3a2e;
   font-weight: 400;
   font-size: 20px;
+  margin: 0;
 }
 
 h1,
@@ -39,8 +40,12 @@ ul {
   padding: 0;
 }
 
+.header {
+  background-color: #bdffe8;
+}
+
 .container {
-  width: 1220px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -48,7 +53,7 @@ ul {
 .header__inner {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .menu {
@@ -83,6 +88,30 @@ ul {
   z-index: 2;
   margin: 7px 0px 0px 119px;
   cursor: pointer;
+}
+
+.top {
+  background-color: #bdffe8;
+  height: 650px;
+}
+
+.top__inner {
+  padding: 158px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__inner-left {
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top__inner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .top__title {
@@ -120,4 +149,9 @@ ul {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.top__img {
+  width: 582px;
+  height: 384px;
 }
