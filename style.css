@@ -155,3 +155,22 @@ ul {
   width: 582px;
   height: 384px;
 }
+
+.services__container {
+  display: flex;
+  gap: 52px;
+}
+
+.service__card {
+  width: 260px;
+  height: 380px;
+  border-radius: 15px;
+  border: 1px solid #b6b6b6;
+  background: #fff;
+  filter: blur(0.5px);
+}
+
+.service__img {
+  width: 170px;
+  height: 170px;
+}
