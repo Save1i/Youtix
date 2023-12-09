@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -225,7 +231,68 @@
       </section>
       <footer class="footer">
         <div class="container">
-          <div class="footer__inner"></div>
+          <div class="footer__inner">
+            <div class="footer__inner__menu">
+              <a class="logo" href="#">
+                <img src="img/youtix.svg" alt="Youtix" class="logo_img" />
+              </a>
+              <nav class="footer__menu">
+                <ul class="footer__menu__list">
+                  <li class="footer__menu__item">
+                    <a href="#" class="footer__menu__link">About us</a>
+                  </li>
+                  <li class="footer__menu__item">
+                    <a href="#" class="footer__menu__link">Our Services</a>
+                  </li>
+                  <li class="footer__menu__item">
+                    <a href="#" class="footer__menu__link">Use Cases</a>
+                  </li>
+                  <li class="footer__menu__item">
+                    <a href="#" class="footer__menu__link">Pricing</a>
+                  </li>
+                  <li class="footer__menu__item">
+                    <a href="#" class="footer__menu__link">Blog</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="footer__social">
+                <img src="img/in.svg" alt="" /><img
+                  src="img/facebook.svg"
+                  alt=""
+                /><img src="img/twitter.svg" alt="" />
+              </div>
+            </div>
+            <div class="footer__content">
+              <div class="footer__contacts">
+                <p class="contacts__title">Contact us:</p>
+                <p class="contacts__text">Email: info@youtix.com</p>
+                <p class="contacts__text">Phone: 555-567-8901</p>
+                <p class="contacts__text">
+                  Address: 1234 Main St Moonstone City, Stardust State 12345
+                </p>
+              </div>
+              <form action="mail.php" method="post">
+                <div class="footer__sub-form">
+                  <div class="footer__search-form">
+                    <input
+                      class="footer__search"
+                      type="email"
+                      name="user_email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <button class="sub-form__btn" id="myButton">
+                    Subscribe to news
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__other">
+              <p class="footer__data">© 2023 Positivus. All Rights Reserved.</p>
+              <p class="footer__privacy">Privacy Policy</p>
+            </div>
+          </div>
         </div>
       </footer>
     </main>
